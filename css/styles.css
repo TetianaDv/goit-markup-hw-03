@@ -17,6 +17,14 @@ img {
   width: calc((100% - 48px) / 3); 
 }
 
+.portfolio-list {
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
+width: calc((100% - 48px) / 3);
+}
+
 .app-category {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -87,6 +95,7 @@ width: calc((100% - 72px) / 4);
 .about-us-list {
 display: flex;
 gap: 24px;
+width: calc((100% - 72px) / 4);
 }
 
 .about-us-text {
@@ -112,6 +121,7 @@ gap: 24px;
 .team-list {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-list {
@@ -154,6 +164,7 @@ gap: 24px;
 .text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .app {
@@ -284,4 +295,8 @@ button:focus {
 .menu-list {
   display: flex;
   gap: 40px;
+}
+
+.menu-item {
+  display: flex;
 }
