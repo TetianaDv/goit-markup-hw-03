@@ -5,6 +5,11 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: flex;
+}
+
+img {
+  display: block;
 }
 
 .list {
@@ -21,6 +26,11 @@
 .address {
   font-style: normal;
   display: flex;
+  gap: 40px;
+}
+
+.address-list {
+    display: flex;
   gap: 40px;
 }
 
@@ -61,12 +71,12 @@ button {
   border-radius: 4px;
 }
 
-.section1 {
+.section-first {
   background-color: #2e2f42;
   padding: 188px 0
 }
 
-.info {
+.section-info {
   padding: 120px 0;
 }
 
@@ -94,7 +104,7 @@ gap: 24px;
   margin-bottom: 8px;
 }
 
-.team {
+.section-team {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
@@ -155,7 +165,7 @@ gap: 24px;
   margin-bottom: 8px;
 }
 
-.portfolio {
+.section-portfolio {
   padding-top: 120px; 
   padding-bottom: 120px;
 }
@@ -248,7 +258,7 @@ button:focus {
 
 }
 
-.header-item1 {
+.header-item-first {
   display: flex;
    align-items: center;
 
