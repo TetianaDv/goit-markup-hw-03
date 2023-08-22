@@ -262,12 +262,14 @@ button:focus {
   color: #4d5ae5;
   text-transform: uppercase;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .f-logo {
   color: #f4f4fd;
   display: inline-block;
   margin: auto;
+  display: inline-block;
 }
 
 .f-text {
