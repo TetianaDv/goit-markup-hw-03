@@ -48,6 +48,7 @@ padding-left: 0;
 .address {
   font-style: normal;
   margin: 72px;
+  margin-left: auto;
 }
 
 .address-list {
@@ -201,7 +202,12 @@ width: calc((100% - 72px) / 4);
 .text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-text-align: left; 
+ text-align: center; 
+}
+
+.text-portfolio {
+   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .app {
@@ -298,8 +304,6 @@ button:focus {
 .header-item-first {
   display: flex;
   align-items: center;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .section {
