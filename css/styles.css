@@ -20,7 +20,6 @@ ul, ol {
 
 img {
   display: block;
-  object-fit: cover;
 }
 
 .list {
@@ -35,8 +34,7 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
-margin-bottom: 40px;
-padding-left: 0;
+
 }
 
 .app-category {
@@ -47,7 +45,6 @@ padding-left: 0;
 
 .address {
   font-style: normal;
-  margin: 72px;
   margin-left: auto;
 }
 
@@ -90,7 +87,7 @@ body {
 }
 
 .container {
-  padding: 15px;
+  padding: 0 15px;
   margin: 0 auto;
   width: 1158px;
 }
@@ -286,7 +283,6 @@ button:focus {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin: 0
 }
 
 .container-h {
